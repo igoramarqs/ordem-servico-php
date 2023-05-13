@@ -10,13 +10,10 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 * Tenha o [Composer](https://getcomposer.org/download/) instalado em sua máquina.
 
 ## ⚠️ Configurações e primeiros passos
-* Últimos lançamentos são armazenados na branch [Release 0.1](https://github.com/devwee/ordem-servico-php/tree/release-0.1), não na branch **main**. Vocês devem realizar o download dos arquivos da branch **[Release 0.1](https://github.com/devwee/ordem-servico-php/tree/release-0.1)**.
-
 * Ao clonar o projeto, entre na pasta do projeto via linha de comando e execute o comando para baixar as dependências do projeto:
 ```
 composer install
 ```
-
 * Dentro da pasta do projeto, na pasta backend, acesse o arquivo core.php. Você apenas deverá definir entre 2 opções a variável "$mode", "dev" (develop mode) ou "prod" (production mode). Ao deixar "dev" ativado, preencha o valor da variável "project_name" com o mesmo nome da pasta onde você armazenará o projeto (por exemplo no xampp: xampp/htdocs/ordem_servico, o valor da variável seria "ordem_servico" sem aspas).
 
 * Ainda na pasta backend, no arquivo mysql.php, você apenas deverá preencher os dados com as informações de seu banco de dados. Lembre-se de importar o banco de dados completo que está localizado na pasta "database" deste projeto.
