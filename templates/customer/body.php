@@ -32,7 +32,7 @@
                                         if ($infos_os['refDataConclusao'] == 0) {
                                             $dataConclusao = "??/??/????";
                                         } else {
-                                            $dataConclusao = FormatDateTimeFromTimestamp($infos_os['refDataConclusao'], 0);
+                                            $dataConclusao = $infos_os['refDataConclusao'];
                                         }
 
                                         if ($infos_os['refDataAbertura'] == 0) {
