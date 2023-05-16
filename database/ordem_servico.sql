@@ -53,7 +53,7 @@ CREATE TABLE `os` (
   `refCliente` varchar(128) NOT NULL DEFAULT 'Nenhum',
   `refContato` varchar(200) NOT NULL DEFAULT 'Nenhum',
   `refDescricaoDefeito` text NOT NULL,
-  `refDataConclusao` int(11) NOT NULL DEFAULT 0,
+  `refDataConclusao` varchar(11) NOT NULL DEFAULT '??/??/????',
   `refTecnico` varchar(128) NOT NULL DEFAULT 'Nenhum',
   `refObservacoes` text NOT NULL,
   `refItens` text NOT NULL,

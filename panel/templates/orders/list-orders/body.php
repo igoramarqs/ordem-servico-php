@@ -106,7 +106,7 @@ $function_delete_order = $CONFIGURATION['site_url'] .'backend/functions/orders/d
                                     if ($row["refDataConclusao"] == 0) {
                                         $refDataConclusao = "Sem registro";                                    
                                     } else {
-                                        $refDataConclusao = FormatDateTimeFromTimestamp($row["refDataConclusao"], 0);
+                                        $refDataConclusao = $row["refDataConclusao"];
                                     }
                                     if ($row["refFormaPagamento"] == 0) {
                                         $refFormaPagamento = "PGTO. PENDENTE";                                    

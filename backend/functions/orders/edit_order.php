@@ -60,7 +60,7 @@
                     `refCliente` = '$cliente',
                     `refContato` = '$telefone',
                     `refDescricaoDefeito` = '$defeito',
-                    `refDataConclusao` = $dtconclusao,
+                    `refDataConclusao` = '$dtconclusao',
                     `refTecnico` = '$tecnico',
                     `refObservacoes` = '$observacoes',
                     `refItens` = '$itens',

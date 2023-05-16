@@ -20,7 +20,7 @@
 			{
 				$dataConclusao = "??/??/????";
 			} else {
-				$dataConclusao = FormatDateTimeFromTimestamp($dados_os['refDataConclusao'],0);
+				$dataConclusao = $dados_os['refDataConclusao'];
 			}
 
 			if($dados_os['refDesconto'] == "")
